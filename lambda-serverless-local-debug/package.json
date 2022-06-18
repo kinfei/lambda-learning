@@ -6,7 +6,8 @@
   "scripts": {
     "deploy:profile": "serverless deploy --aws-profile default",
     "deploy": "serverless deploy --aws-profile default",
-    "start": "nodemon --exec \"./node_modules/.bin/serverless offline -s dev\""
+    "start": "nodemon --exec \"./node_modules/.bin/serverless offline -s dev\"",
+    "debug": "export SLS_DEBUG=* && node --inspect ./node_modules/.bin/serverless offline -s dev"
   },
   "devDependencies": {
     "nodemon": "^2.0.16",
