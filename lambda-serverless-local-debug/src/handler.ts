@@ -7,7 +7,7 @@ export const hello = async (
 ): Promise<APIGatewayProxyResult> => {
   return {
     statusCode: 200,
-    headers: { contentType: "application/json" },
+    headers: { "content-type": "application/json" },
     body: JSON.stringify(
       {
         message: "Go Serverless v1.0! Your function executed successfully!",
