@@ -1,0 +1,17 @@
+{
+  "name": "lambda-test-dev-hello",
+  "version": "1.0.0",
+  "main": "handler.js",
+  "license": "MIT",
+  "scripts": {
+    "deploy:profile": "serverless deploy --aws-profile default",
+    "deploy": "serverless deploy --aws-profile default",
+    "start": "nodemon --exec \"./node_modules/.bin/serverless offline -s dev\""
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16",
+    "serverless": "^3.19.0",
+    "serverless-offline": "^8.8.0"
+  },
+  "dependencies": {}
+}

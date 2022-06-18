@@ -1,0 +1,16 @@
+service: lambda-test-dev-hello
+frameworkVersion: "3"
+provider:
+  name: aws
+  region: ap-southeast-1
+  runtime: nodejs16.x
+  profile: default
+functions:
+  hello:
+    handler: handler.hello
+    events:
+      - httpApi:
+          path: /dev/test
+          method: post
+plugins:
+  - serverless-offline
