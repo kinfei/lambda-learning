@@ -2532,7 +2532,7 @@ node-schedule@^2.1.0:
     long-timeout "0.1.1"
     sorted-array-functions "^1.3.0"
 
-nodemon@^2.0.16:
+nodemon@2.0.16:
   version "2.0.16"
   resolved "https://registry.yarnpkg.com/nodemon/-/nodemon-2.0.16.tgz#d71b31bfdb226c25de34afea53486c8ef225fdef"
   integrity sha512-zsrcaOfTWRuUzBn3P44RDliLlp263Z/76FPoHFr3cFFkOz0lTPAcIw8dCzfdVIx/t3AtDYCZRCDkoCojJqaG3w==
@@ -3099,7 +3099,7 @@ semver@^7.3.4, semver@^7.3.5, semver@^7.3.7:
   dependencies:
     lru-cache "^6.0.0"
 
-serverless-offline@^8.8.0:
+serverless-offline@8.8.0:
   version "8.8.0"
   resolved "https://registry.yarnpkg.com/serverless-offline/-/serverless-offline-8.8.0.tgz#ad12e7a9f86366584ea8f855412bebf25546fcc6"
   integrity sha512-FLS5AZb6uGxalDfwB9/M6jl3IOA4zwIEIgJY8QANuNncbwbcoZfilD1Ajl87hLvUnRvTzncv3gz8QYssVAvq8Q==
@@ -3130,7 +3130,7 @@ serverless-offline@^8.8.0:
     velocityjs "^2.0.6"
     ws "^7.5.7"
 
-serverless@^3.19.0:
+serverless@3.19.0:
   version "3.19.0"
   resolved "https://registry.yarnpkg.com/serverless/-/serverless-3.19.0.tgz#621bbe620e6b3fb48f6d6d68affc3d488993bf92"
   integrity sha512-XqbZ+UhxLjnwnzOEMkecJd68C3P9g9fQGwhHkuQelni3hIjmLlzkVBx6wlxrIBRgAXE9RAllwZvCsi2jZ9h2Ww==
