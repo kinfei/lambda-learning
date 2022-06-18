@@ -5,13 +5,14 @@ provider:
   region: ap-southeast-1
   runtime: nodejs16.x
   profile: default
-  timeout: 30
+  timeout: 300
 functions:
   hello:
-    handler: handler.hello
+    handler: src/handler.hello
     events:
       - httpApi:
           path: /dev/test
           method: post
 plugins:
   - serverless-offline
+  - serverless-plugin-typescript
