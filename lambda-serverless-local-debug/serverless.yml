@@ -4,11 +4,14 @@ provider:
   name: aws
   region: ap-southeast-1
   runtime: nodejs16.x
-  profile: default
-  timeout: 300
+  memorySize: 512 # optional, in MB, default is 1024
+  timeout: 10 # optional, in seconds, default is 6
 functions:
   hello:
     handler: src/handler.hello
+    name: lambda-test-${sls:stage}-hello # optional, Deployed Lambda name
+    memorySize: 512 # optional, in MB, default is 1024
+    timeout: 10 # optional, in seconds, default is 6
     events:
       - httpApi:
           path: /dev/test
