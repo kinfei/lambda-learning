@@ -10,9 +10,9 @@
     "debug": "export SLS_DEBUG=* && node --inspect ./node_modules/.bin/serverless offline -s dev"
   },
   "devDependencies": {
-    "nodemon": "^2.0.16",
-    "serverless": "^3.19.0",
-    "serverless-offline": "^8.8.0"
+    "nodemon": "2.0.16",
+    "serverless": "3.19.0",
+    "serverless-offline": "8.8.0"
   },
   "dependencies": {}
 }
