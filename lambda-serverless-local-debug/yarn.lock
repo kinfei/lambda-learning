@@ -702,10 +702,10 @@ aws-sdk@^2.1174.0:
     uuid "8.0.0"
     xml2js "0.4.19"
 
-aws-sdk@^2.1176.0:
-  version "2.1176.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1176.0.tgz#f3524433a60857a8fcd21722251f2b1f19d72008"
-  integrity sha512-jinSKjACYHIkkz0UlFwQXwz8HAHZIeJg5wOnZoMTKU3/WM6Vh26hZJJ6XkwDAfBmyWp3V9qFdQoSAiO8SeXKjw==
+aws-sdk@^2.1181.0:
+  version "2.1182.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1182.0.tgz#7364e3e104f62b61018a00f19f2ffc989b1780ed"
+  integrity sha512-iemVvLTc2iy0rz3xTp8zc/kD27gIfDF/mk6bxY8/35xMulKCVANWUkAH8jWRKReHh5F/gX4bp33dnfG63ny1Ww==
   dependencies:
     buffer "4.9.2"
     events "1.1.1"
@@ -2665,10 +2665,10 @@ node-fetch@^2.6.7:
   dependencies:
     whatwg-url "^5.0.0"
 
-node-fetch@^3.2.8:
-  version "3.2.8"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-3.2.8.tgz#0d9516dcf43a758d78d6dbe538adf0b1f6a4944e"
-  integrity sha512-KtpD1YhGszhntMpBDyp5lyagk8KIMopC1LEb7cQUAh7zcosaX5uK8HnbNb2i3NTQK3sIawCItS0uFC3QzcLHdg==
+node-fetch@^3.2.9:
+  version "3.2.9"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-3.2.9.tgz#3f6070bf854de20f21b9fe8479f823462e615d7d"
+  integrity sha512-/2lI+DBecVvVm9tDhjziTVjo2wmTsSxSk58saUYP0P/fRJ3xxtfMDY24+CKTkfm0Dlhyn3CSXNL0SoRiCZ8Rzg==
   dependencies:
     data-uri-to-buffer "^4.0.0"
     fetch-blob "^3.1.4"
@@ -3184,15 +3184,15 @@ semver@~7.0.0:
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.0.0.tgz#5f3ca35761e47e05b206c6daff2cf814f0316b8e"
   integrity sha512-+GB6zVA9LWh6zovYQLALHwv5rb2PHGlJi3lfiqIHxR0uuwCgefcOJc59v9fv1w8GbStwxuuqqAjI9NMAOOgq1A==
 
-serverless-offline@9.0.0:
-  version "9.0.0"
-  resolved "https://registry.yarnpkg.com/serverless-offline/-/serverless-offline-9.0.0.tgz#c831dc0fb58120d6d7fb8175b3b839bafd0d52f2"
-  integrity sha512-0GoDCgBnGiOGC7HA5Dyyv1EQKz5+go78vtOQfavRJ/rK5n7DezDWQaGhQGt3AokH9wf72VD2jqh1g3MqoJqpAw==
+serverless-offline@9.1.0:
+  version "9.1.0"
+  resolved "https://registry.yarnpkg.com/serverless-offline/-/serverless-offline-9.1.0.tgz#2e9b469353228a76e860dfa5f9e60a15e5d47e8f"
+  integrity sha512-LsxtYrOIDOU16jAab5z+jHoe3MAaIRn3tX/0pU03eES8TCMEfRZOvFtVNoLPgtEx9jlqHIX+5ctTGqceftNozA==
   dependencies:
     "@hapi/boom" "^10.0.0"
     "@hapi/h2o2" "^9.1.0"
     "@hapi/hapi" "^20.2.2"
-    aws-sdk "^2.1176.0"
+    aws-sdk "^2.1181.0"
     boxen "^7.0.0"
     chalk "^5.0.1"
     execa "^6.1.0"
@@ -3204,7 +3204,7 @@ serverless-offline@9.0.0:
     jsonwebtoken "^8.5.1"
     jszip "^3.10.0"
     luxon "^3.0.1"
-    node-fetch "^3.2.8"
+    node-fetch "^3.2.9"
     node-schedule "^2.1.0"
     object.hasown "^1.1.1"
     p-memoize "^7.1.0"
