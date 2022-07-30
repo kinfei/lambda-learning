@@ -13,7 +13,7 @@
     "@types/node": "18.0.0",
     "nodemon": "2.0.19",
     "serverless": "3.21.0",
-    "serverless-offline": "9.1.0",
+    "serverless-offline": "9.1.1",
     "serverless-plugin-typescript": "2.1.2",
     "typescript": "4.7.4"
   },
