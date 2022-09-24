@@ -9,7 +9,7 @@
     "debug": "export SLS_DEBUG=* && node --inspect ./node_modules/.bin/serverless offline -s dev"
   },
   "devDependencies": {
-    "@types/aws-lambda": "8.10.101",
+    "@types/aws-lambda": "8.10.106",
     "@types/node": "18.0.0",
     "nodemon": "2.0.19",
     "serverless": "3.21.0",
